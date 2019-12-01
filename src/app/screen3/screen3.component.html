@@ -1,0 +1,35 @@
+<div class="scrn3">
+    <div class="alert alert-success">
+        You have successfully withdraw <b>{{(100 * oneHundredNotes) + (500 * fiveHundredNotes) + (2000 * twoThousandNotes) | currency:'INR'}}</b> from your acoount.
+        <span class="updatedBalance">Your Updated Balance : <b>{{userDetails.balance - [(100 * oneHundredNotes) + (500 * fiveHundredNotes) + (2000 * twoThousandNotes)] | currency:'INR'}}</b></span>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">NOTE</th>
+                <th scope="col">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2000 * {{twoThousandNotes}}</td>
+                <td>{{2000 * twoThousandNotes | currency:'INR'}}</td>
+            </tr>
+            <tr>
+                <td>500 * {{fiveHundredNotes}}</td>
+                <td>{{500 * fiveHundredNotes | currency:'INR'}}</td>
+            </tr>
+            <tr>
+                <td>100 * {{oneHundredNotes}}</td>
+                <td>{{100 * oneHundredNotes | currency:'INR'}}</td>
+            </tr>
+            <tr>
+                <td>Total Withdraw Amount</td>
+                <td>{{(100 * oneHundredNotes) + (500 * fiveHundredNotes) + (2000 * twoThousandNotes) | currency:'INR'}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="thank text-center">
+        THANK YOU...
+    </div>
+</div>

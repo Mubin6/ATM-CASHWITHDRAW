@@ -1,0 +1,22 @@
+[{
+        "id": 1,
+        "card__number": "1234567890000000",
+        "pin": "1100",
+        "balance": "89345",
+        "name": "Ranjan Verma"
+    },
+    {
+        "id": 1,
+        "card__number": "1234567890000001",
+        "pin": "1101",
+        "balance": "100321",
+        "name": "Shakib Shaikh"
+    },
+    {
+        "id": 1,
+        "card__number": "1234567890000002",
+        "pin": "1102",
+        "balance": "708324",
+        "name": "Niti Roy"
+    }
+]
